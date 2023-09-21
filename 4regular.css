@@ -48,3 +48,8 @@ a.nav-item:last-of-type { /*-- last-of-type selector --*/
 span {
   text-shadow: 1px 1px 6px #000; /*-- x, y, blur, color --*/
 }
+@media screen and (max-width: 768px) { /*-- 768 and smaller --*/ 
+  nav {
+    flex-direction: column;
+  }
+}
